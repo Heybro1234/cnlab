@@ -12,7 +12,7 @@ set val(ifqlen) 50
 set val(nn) 25
 set val(stop) 100.0
 set val(rp) AODV
-#set val(sc) "cat"
+#set val(sc) "tcp2"
 set val(cp) "tcp1"
 set ns_ [new Simulator]
 set tracefd [open 003.tr w]
